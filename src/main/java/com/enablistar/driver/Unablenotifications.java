@@ -10,8 +10,8 @@ public class Unablenotifications {
     public static ChromeOptions UnableBrowserNameChrome(){
         ChromeOptions options = new ChromeOptions();
         options.setAcceptInsecureCerts(true); // Important
-       // options.addArguments("--disable-gpu");
-        //options.addArguments("--headless");
+        options.addArguments("--disable-gpu");
+        options.addArguments("--headless");
         options.addArguments("--window-size=1920,1080");
        // options.addArguments("--no-sandbox");
        // options.addArguments("--disable-dev-shm-usage");
