@@ -13,8 +13,8 @@ public class Unablenotifications {
         options.addArguments("--disable-gpu");
         options.addArguments("--headless");
         options.addArguments("--window-size=1920,1080");
-       // options.addArguments("--no-sandbox");
-       // options.addArguments("--disable-dev-shm-usage");
+        options.addArguments("--no-sandbox");
+        options.addArguments("--disable-dev-shm-usage");
         options.addArguments("--allow-running-insecure-content");
         options.addArguments("--ignore-certificate-errors");
         options.addArguments("--disable-web-security"); // Use cautiously
