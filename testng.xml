@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+    <listener class-name="com.enablistar.Listeners.TestListener"/></listeners>
+    <test parallel="classes" thread-count="1" name="Login Test">
+        <classes>
+            <class name="com.enablistar.tests.LoginTest"/>
+            <class name="com.enablistar.tests.HomepageTest"/>
+            <class name="com.enablistar.tests.Workflow"/>
+
+
+        </classes>
+    </test>
+</suite>
