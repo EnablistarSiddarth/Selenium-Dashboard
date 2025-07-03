@@ -19,7 +19,7 @@ import static com.enablistar.utils.SeleniumUtils.sendkeys;
 public class WorkflowPage {
 
     private leftMenuComponents leftMenuComponents;
-    private static final By NEWWORKFLOW = By.xpath("(//*[@type='button'])[8]");
+    private static final By NEWWORKFLOW = By.xpath("//*[@class='MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary MuiButton-root MuiButton-contained MuiButton-containedPrimary MuiButton-sizeSmall MuiButton-containedSizeSmall MuiButton-colorPrimary css-1ff5lqt']");
     private static final By SELECTPRODUCTOPTIONS = By.xpath("//*[@class='MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation8 MuiPopover-paper MuiMenu-paper css-vkjhqy']");
     private static final By SELECTPRODUCT = By.xpath("//*[@class='MuiSelect-select MuiSelect-outlined MuiInputBase-input MuiOutlinedInput-input css-18bt607']");
     private static final By WORKFLOWNAME = By.xpath("//*[@placeholder='Name']");
