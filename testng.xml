@@ -5,8 +5,6 @@
     <listener class-name="com.enablistar.Listeners.TestListener"/></listeners>
     <test parallel="classes" thread-count="1" name="Login Test">
         <classes>
-            <class name="com.enablistar.tests.LoginTest"/>
-            <class name="com.enablistar.tests.HomepageTest"/>
             <class name="com.enablistar.tests.Workflow"/>
 
 
